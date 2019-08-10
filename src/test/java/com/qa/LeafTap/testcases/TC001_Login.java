@@ -14,6 +14,8 @@ public class TC001_Login extends ProjectSpecificMethods {
 	@Test(dataProvider="fetchData")
 	public void runLogin(String username, String password) {
 		
+		System.out.println("First Changes in code");
+		
 		new LoginPage()
 		.enterUsername(username)
 		.enterPassword(password)
