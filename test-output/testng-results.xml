@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37933" started-at="2019-08-10T06:46:17Z" finished-at="2019-08-10T06:46:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37933" started-at="2019-08-10T06:46:17Z" finished-at="2019-08-10T06:46:55Z">
+      <class name="com.qa.LeafTap.testcases.TC001_Login">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.qa.LeafTap.testcases.TC001_Login@4f7d0008]" name="setData" is-config="true" duration-ms="46" started-at="2019-08-10T06:46:17Z" finished-at="2019-08-10T06:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.LeafTap.testcases.TC001_Login@4f7d0008]" name="login" is-config="true" duration-ms="24563" started-at="2019-08-10T06:46:19Z" finished-at="2019-08-10T06:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.LeafTap.testcases.TC001_Login@4f7d0008]" name="runLogin" duration-ms="1458" started-at="2019-08-10T06:46:43Z" data-provider="fetchData" finished-at="2019-08-10T06:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.LeafTap.testcases.TC001_Login@4f7d0008]" name="closeBrowser" is-config="true" duration-ms="180" started-at="2019-08-10T06:46:45Z" finished-at="2019-08-10T06:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.LeafTap.testcases.TC001_Login@4f7d0008]" name="login" is-config="true" duration-ms="7767" started-at="2019-08-10T06:46:45Z" finished-at="2019-08-10T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.LeafTap.testcases.TC001_Login@4f7d0008]" name="runLogin" duration-ms="1616" started-at="2019-08-10T06:46:53Z" data-provider="fetchData" finished-at="2019-08-10T06:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.LeafTap.testcases.TC001_Login@4f7d0008]" name="closeBrowser" is-config="true" duration-ms="519" started-at="2019-08-10T06:46:54Z" finished-at="2019-08-10T06:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.LeafTap.testcases.TC001_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
